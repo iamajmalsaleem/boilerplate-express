@@ -5,6 +5,7 @@
  
 var bGround = require('fcc-express-bground');
 var myApp = require('./myApp');
+const mySecret = process.env['MESSAGE_STYLE']
 var express = require('express');
 var app = express();
 
